@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03C3CC6A222DBD9E00A01731 /* R2Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C3CC69222DBD9E00A01731 /* R2Shared.framework */; };
 		59501E201E2FB2AD00D1B4BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59501E1F1E2FB2AD00D1B4BF /* libz.tbd */; };
+		B8071A95339B2D6C9627B525 /* Pods_r2_streamer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE312E084E42E2613C3E8A /* Pods_r2_streamer_swift.framework */; };
 		CA130D44229D4245000A627C /* Seekable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA130D00229D4245000A627C /* Seekable.swift */; };
 		CA130D45229D4245000A627C /* FileInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA130D01229D4245000A627C /* FileInputStream.swift */; };
 		CA130D46229D4245000A627C /* DataInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA130D02229D4245000A627C /* DataInputStream.swift */; };
@@ -70,6 +71,7 @@
 		CAC5AEE122C236FB007DB8A8 /* ReadiumWebPubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5AEE022C236FB007DB8A8 /* ReadiumWebPubParser.swift */; };
 		CAD1EE6E245ABD6F00C1E684 /* PublicationParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1EE6D245ABD6F00C1E684 /* PublicationParserTests.swift */; };
 		CAF58199229EC8B3009A04E8 /* EPUBMetadataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF58198229EC8B3009A04E8 /* EPUBMetadataParserTests.swift */; };
+		CF9EAE4D68BBF2829117B653 /* Pods_r2_streamer_swift_r2_streamer_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C9FD0628A46DC444629AFF /* Pods_r2_streamer_swift_r2_streamer_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +86,13 @@
 
 /* Begin PBXFileReference section */
 		03C3CC69222DBD9E00A01731 /* R2Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = R2Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C9FD0628A46DC444629AFF /* Pods_r2_streamer_swift_r2_streamer_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_r2_streamer_swift_r2_streamer_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FE312E084E42E2613C3E8A /* Pods_r2_streamer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_r2_streamer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0A4459CE044D9BCCB7B7F8 /* Pods-r2-streamer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r2-streamer-swift.release.xcconfig"; path = "Target Support Files/Pods-r2-streamer-swift/Pods-r2-streamer-swift.release.xcconfig"; sourceTree = "<group>"; };
 		59501DCD1E2FB0D700D1B4BF /* R2Streamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = R2Streamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59501E1F1E2FB2AD00D1B4BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		99B645626FC8ABAFEBC7629A /* Pods-r2-streamer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r2-streamer-swift.debug.xcconfig"; path = "Target Support Files/Pods-r2-streamer-swift/Pods-r2-streamer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF748AB6A0DEA63825FB0FD /* Pods-r2-streamer-swift-r2-streamer-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r2-streamer-swift-r2-streamer-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-r2-streamer-swift-r2-streamer-swiftTests/Pods-r2-streamer-swift-r2-streamer-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA130D00229D4245000A627C /* Seekable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seekable.swift; sourceTree = "<group>"; };
 		CA130D01229D4245000A627C /* FileInputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInputStream.swift; sourceTree = "<group>"; };
 		CA130D02229D4245000A627C /* DataInputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInputStream.swift; sourceTree = "<group>"; };
@@ -149,6 +156,7 @@
 		CAC5AEE022C236FB007DB8A8 /* ReadiumWebPubParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadiumWebPubParser.swift; sourceTree = "<group>"; };
 		CAD1EE6D245ABD6F00C1E684 /* PublicationParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationParserTests.swift; sourceTree = "<group>"; };
 		CAF58198229EC8B3009A04E8 /* EPUBMetadataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPUBMetadataParserTests.swift; sourceTree = "<group>"; };
+		F711DF43C362B2D113CEC762 /* Pods-r2-streamer-swift-r2-streamer-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r2-streamer-swift-r2-streamer-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-r2-streamer-swift-r2-streamer-swiftTests/Pods-r2-streamer-swift-r2-streamer-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +167,7 @@
 				CA94291822BCE42500305CDB /* CoreServices.framework in Frameworks */,
 				03C3CC6A222DBD9E00A01731 /* R2Shared.framework in Frameworks */,
 				59501E201E2FB2AD00D1B4BF /* libz.tbd in Frameworks */,
+				B8071A95339B2D6C9627B525 /* Pods_r2_streamer_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA130DA4229E7C83000A627C /* R2Streamer.framework in Frameworks */,
+				CF9EAE4D68BBF2829117B653 /* Pods_r2_streamer_swift_r2_streamer_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +190,7 @@
 				CA130DAC229E7CBE000A627C /* r2-streamer-swiftTests */,
 				59501DCE1E2FB0D700D1B4BF /* Products */,
 				59501E171E2FB1F500D1B4BF /* Frameworks */,
+				CE99D438108884D3CDE87528 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +209,8 @@
 				CA94291722BCE42500305CDB /* CoreServices.framework */,
 				03C3CC69222DBD9E00A01731 /* R2Shared.framework */,
 				59501E1F1E2FB2AD00D1B4BF /* libz.tbd */,
+				21FE312E084E42E2613C3E8A /* Pods_r2_streamer_swift.framework */,
+				12C9FD0628A46DC444629AFF /* Pods_r2_streamer_swift_r2_streamer_swiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -421,6 +434,17 @@
 			path = "Readium WebPub";
 			sourceTree = "<group>";
 		};
+		CE99D438108884D3CDE87528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B645626FC8ABAFEBC7629A /* Pods-r2-streamer-swift.debug.xcconfig */,
+				3A0A4459CE044D9BCCB7B7F8 /* Pods-r2-streamer-swift.release.xcconfig */,
+				9CF748AB6A0DEA63825FB0FD /* Pods-r2-streamer-swift-r2-streamer-swiftTests.debug.xcconfig */,
+				F711DF43C362B2D113CEC762 /* Pods-r2-streamer-swift-r2-streamer-swiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -441,6 +465,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59501DE11E2FB0D700D1B4BF /* Build configuration list for PBXNativeTarget "r2-streamer-swift" */;
 			buildPhases = (
+				A0229C40BBF2F9FB32EA1534 /* [CP] Check Pods Manifest.lock */,
 				59501DC81E2FB0D700D1B4BF /* Sources */,
 				59501DC91E2FB0D700D1B4BF /* Frameworks */,
 				59501DCA1E2FB0D700D1B4BF /* Headers */,
@@ -459,9 +484,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA130DA9229E7C83000A627C /* Build configuration list for PBXNativeTarget "r2-streamer-swiftTests" */;
 			buildPhases = (
+				95882F2059C6BACF6198C581 /* [CP] Check Pods Manifest.lock */,
 				CA130D9B229E7C83000A627C /* Sources */,
 				CA130D9C229E7C83000A627C /* Frameworks */,
 				CA130D9D229E7C83000A627C /* Resources */,
+				FA2CEEC258D25B668C623700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -532,6 +559,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95882F2059C6BACF6198C581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-r2-streamer-swift-r2-streamer-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0229C40BBF2F9FB32EA1534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-r2-streamer-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2CEEC258D25B668C623700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-r2-streamer-swift-r2-streamer-swiftTests/Pods-r2-streamer-swift-r2-streamer-swiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/Minizip/Minizip.framework",
+				"${BUILT_PRODUCTS_DIR}/R2Shared/R2Shared.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Minizip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/R2Shared.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-r2-streamer-swift-r2-streamer-swiftTests/Pods-r2-streamer-swift-r2-streamer-swiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59501DC81E2FB0D700D1B4BF /* Sources */ = {
@@ -736,6 +836,7 @@
 		};
 		59501DE21E2FB0D700D1B4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B645626FC8ABAFEBC7629A /* Pods-r2-streamer-swift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -753,7 +854,7 @@
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "r2-streamer-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.R2Streamer;
@@ -766,6 +867,7 @@
 		};
 		59501DE31E2FB0D700D1B4BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0A4459CE044D9BCCB7B7F8 /* Pods-r2-streamer-swift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -784,7 +886,7 @@
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "r2-streamer-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.R2Streamer;
@@ -797,6 +899,7 @@
 		};
 		CA130DA7229E7C83000A627C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF748AB6A0DEA63825FB0FD /* Pods-r2-streamer-swift-r2-streamer-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -823,6 +926,7 @@
 		};
 		CA130DA8229E7C83000A627C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F711DF43C362B2D113CEC762 /* Pods-r2-streamer-swift-r2-streamer-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

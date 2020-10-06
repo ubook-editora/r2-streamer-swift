@@ -16,10 +16,8 @@ Pod::Spec.new do |s|
   s.libraries =  'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
-  s.dependency 'R2Shared'
-  s.dependency 'Fuzi'
-  s.dependency 'CryptoSwift'
-  s.dependency 'GCDWebServer'
-  s.dependency 'Minizip'
+  s.dependency 'Fuzi', '3.1.2'
+  s.dependency 'CryptoSwift', '1.3.1'
+  s.dependency 'GCDWebServer', '3.6.2'
 
 end
