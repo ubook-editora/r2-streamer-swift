@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
   s.dependency 'R2Shared', '2.0.0-alpha.2-fix.1'
-  s.dependency 'CryptoSwift', '1.3.1'
+  s.dependency 'CryptoSwift', '1.3.2'
   s.dependency 'GCDWebServer', '3.6.2'
 end
